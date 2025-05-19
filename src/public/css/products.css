@@ -1,0 +1,126 @@
+.products-form {
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    width: 95%;
+}
+
+.products-form__heading {
+    margin-top: 30px;
+}
+
+
+.products-form__link {
+    margin-top: 50px;
+}
+
+.products-form__link-submit {
+    padding: 10px 20px;
+    background: #ffa929;
+    font-size: 14px;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.products__container {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 95%;
+}
+.products-aside{
+    width:18%;
+    border-bottom: #ddd 2px solid;
+}
+
+.products-aside__form-input {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.products-aside__button-input {
+    width: 100%;
+    text-align: center;
+    padding: 10px 80px;
+    margin: 5px auto;
+    background: #f5c900;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.products-aside__form-price {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.reset-button {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+.products-aside__form-select {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.products__list {
+    width: 100%;
+}
+.products__list-image {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    margin: 0 20px;
+}
+
+.products__item-image {
+    width: 400px;
+    height: auto;
+}
+
+.products__item-name-price {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-weight: bold;
+    background-color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.products__item-name {
+    padding-left: 10px;
+}
+
+.products__item-price {
+    padding-right: 10px;
+}
+
+/* ページネーション */
+svg.w-5.h-5 {
+    width: 30px;
+    height: 30px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}

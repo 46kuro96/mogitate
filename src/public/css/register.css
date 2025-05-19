@@ -1,0 +1,167 @@
+.register__content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.register__heading {
+    position: relative;
+    left: 400px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.register__label {
+    display: block;
+    position: relative;
+    left: 400px;
+    color: #909090;
+}
+
+.register__required {
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 10px;
+}
+
+.register__required-repletion {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.register__input {
+    display: block;
+    position: relative;
+    left: 400px;
+    width: 800px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.register__image-file {
+    display: block;
+    position: relative;
+    left: 400px;
+    width: 800px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.register__image-input {
+    display: block;
+    position: relative;
+    left: 400px;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.register__image-preview {
+    max-width: 300px;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    left:400px;
+    margin-bottom: 20px;
+}
+
+.register__season-content {
+    display: flex;
+    position: relative;
+    left: 400px;
+    margin-top: 10px;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.checkbox-style {
+    margin-left: 5px;
+}
+
+
+.register__description {
+    display: block;
+    position: relative;
+    left: 400px;
+    width: 800px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.register__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.register__button-submit-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 450px;
+    margin-right: 20px;
+    font-size: 18px;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register__button-submit-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #f5c800;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-form__error-message {
+    color: red;
+}
+
+.register-form__error-message-name,
+.register-form__error-message-price,
+.register-form__error-message-image,
+.register-form__error-message-season,
+.register-form__error-message-description {
+    margin-left: 400px;
+    margin-top: 0;
+    padding: 0 auto;
+}
